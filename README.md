@@ -15,8 +15,13 @@ makepkg -si
 ## Programs
 
 ```bash
-sudo pacman -S pulseaudio pavucontrol libnotify notification-daemon udiskie ntfs-3g volumeicon glib2 gvfs picom lxappearance nitrogen lxsession neovim rofi ranger thunar trayer vlc kvantum-qt5 libmtp simple-mtpfs kdenlive obs-studio discord ttf-dejavu ttf-liberation noto-fonts
+sudo pacman -S pulseaudio pavucontrol libnotify notification-daemon udiskie ntfs-3g volumeicon glib2 gvfs picom lxappearance nitrogen lxsession neovim rofi ranger thunar trayer vlc kvantum-qt5 gparted libreoffice-fresh keepassxc alacritty gimp inkscape audacity atril ristretto qbittorrent libmtp simple-mtpfs kdenlive obs-studio telegram-desktop signal-desktop discord ttf-dejavu ttf-liberation noto-fonts
 ```
+
+```bash
+yay -S librewolf-bin vscodium
+```
+
 
 ## Xprofile
 
