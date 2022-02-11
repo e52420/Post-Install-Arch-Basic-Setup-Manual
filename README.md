@@ -2,6 +2,15 @@
 
 # Basic system utilities
 
+## Yay Aur Helper
+
+```bash
+cd /opt
+sudo git clone https://aur.archlinux.org/yay.git
+sudo chown -R user:users ./yay
+cd yay
+makepkg -si
+```
 
 ## Programs
 
