@@ -1,4 +1,4 @@
-# e52420-arch-basic-setup
+# post-install-arch-basic-setup
 
 # Basic system utilities
 
@@ -6,12 +6,7 @@
 ## Programs
 
 ```bash
-sudo pacman -S pulseaudio pavucontrol pamixer libnotify notification-daemon udiskie ntfs-3g cbatticon volumeicon glib2 gvfs picom lxappearance feh nitrogen lxsession neovim rofi ranger thunar trayer vlc kvantum-qt5 libmtp simple-mtpfs kdenlive obs-studio discord 
-```
-## Fonts 
-
-```bash
-sudo pacman -S ttf-dejavu ttf-liberation noto-fonts
+sudo pacman -S pulseaudio pavucontrol libnotify notification-daemon udiskie ntfs-3g volumeicon glib2 gvfs picom lxappearance nitrogen lxsession neovim rofi ranger thunar trayer vlc kvantum-qt5 libmtp simple-mtpfs kdenlive obs-studio discord ttf-dejavu ttf-liberation noto-fonts
 ```
 
 ## Xprofile
