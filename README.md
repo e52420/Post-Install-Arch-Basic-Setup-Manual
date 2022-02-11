@@ -1,4 +1,4 @@
-# ayoub-basic-config
+# e52420 Arch Linux Basic setup.
 
 # Basic system utilities
 
@@ -26,36 +26,13 @@ touch ~/.xprofile
 setxkbmap es &
 nm-applet &
 udiskie -t &
-volumeicon &
-cbatticon &
-picom &
 nitrogen --restore &
 lxsession &
-lxappearance &
 ```
 
-## Systray
 
-By default, you have a system tray in Qtile, but there's nothing running in it.
-You can launch the programs we've just installed like so:
 
-```bash
-udiskie -t &
-nm-applet &
-```
-
-Now you should see icons that you can click to configure drives and networking.
-Optionally, you can install tray icons for volume and battery:
-
-```bash
-sudo pacman -S volumeicon cbatticon
-
-```
 ## Notifications
-
-I like having desktop notifications as well, for that you need to install
-[**libnotify**](https://wiki.archlinux.org/index.php/Desktop_notifications#Libnotify)
-and [**notification-daemon**](https://www.archlinux.org/packages/community/x86_64/notification-daemon/):
 
 ```bash
 sudo pacman -S libnotify notification-daemon
@@ -74,13 +51,5 @@ Test it like so:
 
 ```bash
 notify-send "Hello World"
-```
-
-## Qt
-
-[**Kvantum**]
-
-```bash
-echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile
 ```
 
