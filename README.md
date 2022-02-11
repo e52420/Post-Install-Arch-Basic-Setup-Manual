@@ -1,4 +1,4 @@
-# e52420 Arch Linux Basic setup.
+# e52420-arch-basic-setup
 
 # Basic system utilities
 
