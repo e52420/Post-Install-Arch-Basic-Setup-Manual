@@ -1,6 +1,4 @@
-# post-install-arch-basic-setup
-
-# Basic system utilities
+# Post-Install-Arch-Basic-Setup-Manual
 
 ## Yay Aur Helper
 
